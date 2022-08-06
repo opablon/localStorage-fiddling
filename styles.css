@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: slategray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 2vh;
+}
+
+nav a {
+  float: inline-end;
+  color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+}
+
+nav a:hover {
+    background-color:aliceblue;
+    color: darkslategray;
+}
+
+body {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+input {
+    background-color:aliceblue;
+    border-color: aliceblue;
+    border-radius: 0.6vh;
+    padding: 1vh;
+}
+
+button {
+    margin-left: 1vh;
+    background-color:rgb(65, 74, 82);
+    color: #f2f2f2;
+    font-size: 1.4vh;
+    font-weight: bold;
+    border-color: aliceblue;
+    border-radius: 0.6vh;
+    padding: 1vh 1.4vh;
+}
+
+button:hover {
+    background-color:rgb(191, 196, 200);
+    color: darkslategray;
+}
+
+h2 {
+    color: #f2f2f2;
+    font-size: 4vh;
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+
+#elDivo {
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: darkslategray;
+    margin: auto;
+    width: 100vh;
+    border: 3px solid darkslategray;
+    border-radius: 4vh;
+    padding-bottom: 6vh;
+}
+
+p {
+    background-color: aliceblue;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+
+.div-data {
+    background-color: aliceblue;
+}
